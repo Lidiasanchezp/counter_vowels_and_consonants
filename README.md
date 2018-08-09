@@ -7,5 +7,5 @@ consonant = 0
 for letter in word:
     if letter in vowels:
         total_vowels = total_vowels + 1
-print("There are {} vowels in".format(total_vowels), word)
-print("There are {} consonants in".format(consonant), word)
+print("There are {} vowels in".format(total_vowels, word))
+print("There are {} consonants in".format(consonant, word))
