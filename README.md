@@ -1,11 +1,4 @@
 # counter_vowels_and_consonants
-vowels = ['a', 'e', 'i', 'o', 'u']
-word = input("Enter a word: ")
-
-total_vowels = 0
-consonant = 0
-for letter in word:
-    if letter in vowels:
-        total_vowels = total_vowels + 1
-print("There are {} vowels in".format(total_vowels, word))
-print("There are {} consonants in".format(consonant, word))
+The vowels are the letters "a", "e", "i", "o", "u".
+The consonants are the rest of the letter of alphabetic.
+This program can counts how many vowels and consonants there are in a word.
